@@ -6,7 +6,8 @@ I will be using a CNN.
 
 Other people used CNNs as well. They also used other operations. One such operation was batch normalization which transforms the input data so that it has mean=0 and std dev=1. Another operation was Dense which allows the model to pick out important features in the training data. It does this by optimizing a matrix of coefficients that will be multiplied by the feature values.
 
-
+### Diagram of my network
+![NetWork Diagram](NetworkDiagram.png)
 
 ### Performance
 We measure performance by looking at the accuracy. For the training data, there was 99.97% accuracy and it had 98.8% accuracy on the testing data. This shows that there was some overfitting that occured which means that the model could have had either fewer parameters or fewer non-zero parameters.
